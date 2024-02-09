@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-DiscordBot-2f95f30c-5274-4b50-9401-029e5ce40852</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Discord.Net" Version="3.13.0" />
+    <PackageReference Include="Discord.Net.Commands" Version="3.13.0" />
+    <PackageReference Include="Discord.Net.Core" Version="3.13.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="PuppeteerSharp" Version="14.0.0" />
+  </ItemGroup>
+</Project>
